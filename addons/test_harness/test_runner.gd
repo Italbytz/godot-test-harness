@@ -76,3 +76,4 @@ func assert_gt(val: float, threshold: float, msg: String = "") -> bool:
 
 func assert_lt(val: float, threshold: float, msg: String = "") -> bool:
 	return assertions.assert_lt(val, threshold, msg)
+

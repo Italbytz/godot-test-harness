@@ -79,3 +79,4 @@ func _fail(failure_msg: String) -> void:
 	tests_failed += 1
 	failures.append(failure_msg)
 	printerr("  ❌ FAILURE: ", failure_msg)
+
