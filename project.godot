@@ -1,0 +1,13 @@
+; Engine configuration file.
+
+config_version=5
+
+[application]
+
+config/name="TestHarness Addon"
+config/description="Godot 4 Addon: Lightweight Headless CI/CD Unit Test Runner, Assertions, and Assertion Reporting"
+config/features=PackedStringArray("4.3", "Forward Plus")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/test_harness/plugin.cfg")
